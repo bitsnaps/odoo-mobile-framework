@@ -18,6 +18,9 @@ It has pre-developed services,providers, controls and more other features to mak
 
 **Odoo Mobile** is a part of The Odoo (India)
 
+### Status
+[![Build Status](https://travis-ci.org/nek-v/odoo-mobile-framework.svg?branch=master)](https://travis-ci.org/nek-v/odoo-mobile-framework)
+
 CHANGELOG
 =========
 
@@ -46,7 +49,7 @@ SUPPORTED ODOO VERSIONS
 HOW TO START
 ============
 
-Learn more about the integrating odoo apps with your android app, accessing source code, and more at [https://odoo-mobile-framework-doc.readthedocs.io/en/latest/(https://odoo-mobile-framework-doc.readthedocs.io/en/latest/)
+Learn more about the integrating odoo apps with your android app, accessing source code, and more at [https://odoo-mobile-framework-doc.readthedocs.io](https://odoo-mobile-framework-doc.readthedocs.io)
  
 REQUIRES
 ========
