@@ -46,7 +46,7 @@ SUPPORTED ODOO VERSIONS
 HOW TO START
 ============
 
-Learn more about the integrating odoo apps with your android app, accessing source code, and more at [http://mobile.odoo.co.in/v2/](http://mobile.odoo.co.in/v2/)
+Learn more about the integrating odoo apps with your android app, accessing source code, and more at [https://odoo-mobile-framework-doc.readthedocs.io/en/latest/(https://odoo-mobile-framework-doc.readthedocs.io/en/latest/)
  
 REQUIRES
 ========
@@ -58,7 +58,4 @@ REQUIRES
 GIVE FEEDBACK
 =============
 
- - Please report bug or issues [https://github.com/Odoo-mobile/framework/issues](https://github.com/Odoo-mobile/framework/issues)
- - You can also write us on **android@odoo.co.in**
-
-Follow us on Twitter: <a href="https://twitter.com/odoomobile">@odoomobile</a>
+ - Please report bug or issues [https://github.com/nek-v/odoo-mobile-framework/issues](https://github.com/nek-v/odoo-mobile-framework/issues)
