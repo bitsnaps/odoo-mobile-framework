@@ -1,5 +1,5 @@
 <img src="https://github.com/Odoo-mobile/framework/blob/master/odoo_mobile.png" alt="Odoo Mobile"/>
-<br/>v2.3.0 (Build 7)
+<br/>v2.3.0 (Build 7) [![Build Status](https://travis-ci.org/nek-v/odoo-mobile-framework.svg?branch=master)](https://travis-ci.org/nek-v/odoo-mobile-framework)
 
 Odoo Mobile v2.3.0 (Framework)
 ==============================
@@ -17,9 +17,6 @@ This framework contains its own ORM to handle mobile’s local database (SQLite)
 It has pre-developed services,providers, controls and more other features to make your application faster and better. 
 
 **Odoo Mobile** is a part of The Odoo (India)
-
-### Status
-[![Build Status](https://travis-ci.org/nek-v/odoo-mobile-framework.svg?branch=master)](https://travis-ci.org/nek-v/odoo-mobile-framework)
 
 CHANGELOG
 =========
