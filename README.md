@@ -1,5 +1,7 @@
 <img src="https://github.com/Odoo-mobile/framework/blob/master/odoo_mobile.png" alt="Odoo Mobile"/>
-<br/>v2.3.0 (Build 7) [![Build Status](https://travis-ci.org/nek-v/odoo-mobile-framework.svg?branch=master)](https://travis-ci.org/nek-v/odoo-mobile-framework)
+<br/>v2.3.0 (Build 7)
+
+[![Build Status](https://travis-ci.org/nek-v/odoo-mobile-framework.svg?branch=master)](https://travis-ci.org/nek-v/odoo-mobile-framework)
 
 Odoo Mobile v2.3.0 (Framework)
 ==============================
