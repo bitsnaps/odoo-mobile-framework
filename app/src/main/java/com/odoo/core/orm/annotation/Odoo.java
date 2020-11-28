@@ -101,7 +101,8 @@ public @interface Odoo {
 
         @Retention(RetentionPolicy.RUNTIME)
         @Target({ElementType.FIELD, ElementType.METHOD})
-        @interface v11alpha {
+        //@interface v11alpha {
+        @interface v11 {
             String[] versions() default {};
 
             String[] exclude() default {};

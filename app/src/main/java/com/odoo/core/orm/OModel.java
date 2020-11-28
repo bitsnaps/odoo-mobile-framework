@@ -93,13 +93,15 @@ public class OModel implements ISyncServiceListener {
     @Odoo.api.v8
     @Odoo.api.v9
     @Odoo.api.v10
-    @Odoo.api.v11alpha
+//    @Odoo.api.v11alpha
+    @Odoo.api.v11
     public OColumn create_date = new OColumn("Created On", ODateTime.class);
 
     @Odoo.api.v8
     @Odoo.api.v9
     @Odoo.api.v10
-    @Odoo.api.v11alpha
+//    @Odoo.api.v11alpha
+    @Odoo.api.v11
     public OColumn write_date = new OColumn("Last Updated On", ODateTime.class);
 
     // Local Base columns
@@ -349,7 +351,8 @@ public class OModel implements ISyncServiceListener {
                     if (type.getDeclaringClass().isAssignableFrom(Odoo.api.class)) {
                         switch (mOdooVersion.getVersionNumber()) {
                             case 11:
-                                if (type.isAssignableFrom(Odoo.api.v11alpha.class)) {
+                                //if (type.isAssignableFrom(Odoo.api.v11alpha.class)) {
+                                if (type.isAssignableFrom(Odoo.api.v11.class)) {
                                     version++;
                                 }
                                 break;

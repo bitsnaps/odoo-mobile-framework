@@ -37,6 +37,7 @@ import com.odoo.core.orm.fields.OColumn;
 import com.odoo.core.support.OUser;
 import com.odoo.core.utils.ODateUtils;
 import com.odoo.core.utils.OObjectUtils;
+import com.odoo.core.utils.logger.OLog;
 
 import java.io.IOException;
 import java.util.Arrays;
@@ -82,8 +83,12 @@ public class BaseModelProvider extends ContentProvider {
 
     private void setMatcher(OModel model, Uri uri) {
         String authority = (authority() != null) ? authority() : uri.getAuthority();
-        matcher.addURI(authority, model.getModelName(), COLLECTION);
-        matcher.addURI(authority, model.getModelName() + "/#", SINGLE_ROW);
+        if (model != null){
+            matcher.addURI(authority, model.getModelName(), COLLECTION);
+            matcher.addURI(authority, model.getModelName() + "/#", SINGLE_ROW);
+        } else {
+            OLog.log("ERROR: model is null and could not be created.");
+        }
     }
 
     @Override
