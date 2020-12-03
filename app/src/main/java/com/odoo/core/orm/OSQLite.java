@@ -45,11 +45,25 @@ public class OSQLite extends SQLiteOpenHelper {
         mUser = (user != null) ? user : OUser.current(context);
     }
 
+
+    class OCompany extends OModel {
+        public OCompany(Context context, String model_name, OUser user){
+            super(context, model_name, user);
+        }
+    }
+
+    class OCurreny extends OModel {
+        public OCurreny(Context context, String model_name, OUser user){
+            super(context, model_name, user);
+        }
+    }
+
     @Override
     public void onCreate(SQLiteDatabase db) {
         Log.i(TAG, "creating database.");
         ModelRegistryUtils registryUtils = odooApp.getModelRegistry();
         HashMap<String, Class<? extends OModel>> models = registryUtils.getModels();
+
         OSQLHelper sqlHelper = new OSQLHelper(mContext);
 
         for (String key : models.keySet()) {

@@ -268,6 +268,10 @@ public class BaseModelProvider extends ContentProvider {
     private ContentValues[] generateValues(OModel model, ContentValues values) {
         OValues data_value = new OValues();
         OValues rel_value = new OValues();
+        if (model == null ){
+            // last_synced=DATETIME model=res.company
+            OLog.log("Model where values = " + values.toString()+ " is null.");
+        } else
         for (String key : values.keySet()) {
             OColumn column = model.getColumn(key);
             if (column != null) {

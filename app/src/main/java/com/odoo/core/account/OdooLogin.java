@@ -377,8 +377,9 @@ public class OdooLogin extends AppCompatActivity implements View.OnClickListener
                     ODataRow company_details = new ODataRow();
                     company_details.put("id", mUser.getCompanyId());
                     ResCompany company = new ResCompany(OdooLogin.this, mUser);
+                    // This may cause an error
                     company.quickCreateRecord(company_details);
-                    Thread.sleep(500);
+                    Thread.sleep(1000);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
